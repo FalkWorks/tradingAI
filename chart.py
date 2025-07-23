@@ -109,4 +109,4 @@ class Chart:
             height=700,
             title=f"{self.symbol} Candlestick Chart"
         )
-        fig.show()
+        return fig
